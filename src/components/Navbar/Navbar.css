@@ -1,0 +1,51 @@
+.navbarContainer{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 40px;
+    background-color: #2A59FE;
+    color: white;
+    padding: 5px 120px;
+}
+
+.navbarLeft {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    font-size: 24px;
+    letter-spacing: 2px;
+    cursor: pointer;
+  }
+
+  .navbarCenter {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+    border: 1px solid gray;
+    height: 35px;
+    width: 400px;
+    
+   }
+
+   .navSearchInput{
+    width: 100%;
+    border: none;
+    outline: none;
+   }
+   .navbarRight {
+    display: flex;
+    align-items: center;
+    gap: 25px;
+    flex-wrap: nowrap;
+}
+    
+.iconWithText{
+display: flex;
+align-items: center;
+gap: 10px;
+}
+.iconWithText:first-child {
+    cursor: pointer;
+    user-select: none;
+    }
